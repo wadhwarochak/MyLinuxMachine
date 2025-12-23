@@ -1,0 +1,4 @@
+2025-03-15 09:02:07,998 [ERROR] Failed to fetch data from API endpoint /users
+2025-03-15 09:02:08,001 [ERROR] Reason: Connection timeout after 3000 ms
+2025-03-15 09:05:55,431 [ERROR] Cleanup job failed
+2025-03-15 09:05:55,435 [ERROR] Reason: Permission denied while deleting temp files

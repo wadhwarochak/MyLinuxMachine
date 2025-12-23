@@ -1,0 +1,25 @@
+2025-03-15 09:00:01,123 [INFO]  Application started successfully
+2025-03-15 09:00:02,045 [INFO]  Loading configuration from config.yaml
+2025-03-15 09:00:02,890 [INFO]  Database connection established
+
+2025-03-15 09:01:10,332 [INFO]  Starting data ingestion job: job_id=ING_101
+2025-03-15 09:01:12,118 [WARNING] Missing optional field 'middle_name' for record_id=4589
+2025-03-15 09:01:15,667 [INFO]  Processed 500 records successfully
+
+2025-03-15 09:02:03,901 [WARNING] API response time exceeded threshold (1200 ms)
+2025-03-15 09:02:05,410 [INFO]  Retrying API request (attempt 2 of 3)
+
+2025-03-15 09:02:07,998 [ERROR] Failed to fetch data from API endpoint /users
+2025-03-15 09:02:08,001 [ERROR] Reason: Connection timeout after 3000 ms
+
+2025-03-15 09:03:20,556 [INFO]  Switching to fallback data source
+2025-03-15 09:03:45,220 [INFO]  Fallback source connected successfully
+
+2025-03-15 09:04:10,774 [WARNING] Disk usage reached 82% on /data partition
+2025-03-15 09:04:30,112 [INFO]  Cleanup job started
+
+2025-03-15 09:05:55,431 [ERROR] Cleanup job failed
+2025-03-15 09:05:55,435 [ERROR] Reason: Permission denied while deleting temp files
+
+2025-03-15 09:06:10,902 [INFO]  Application shutting down gracefully
+
