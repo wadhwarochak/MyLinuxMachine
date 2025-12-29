@@ -1,0 +1,3 @@
+34 20 * * * /workspaces/MyLinuxMachine/SCRIPTS/01-GetErrorMessages/01-GetErrorMessages.sh > cron_output.txt
+
+34 20 * * * /workspaces/MyLinuxMachine/SCRIPTS/01-GetErrorMessages/01-GetErrorMessages.sh | mail -s "Connectivity Status" testemail@fomain.com
