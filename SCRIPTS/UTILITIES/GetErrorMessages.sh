@@ -11,3 +11,4 @@
 
 grep -i error /workspaces/MyLinuxMachine/SCRIPTS/01-GetErrorMessages/application.log > error.log
 
+

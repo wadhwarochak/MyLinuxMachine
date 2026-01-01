@@ -10,3 +10,4 @@
 
 
 grep -i warning /workspaces/MyLinuxMachine/SCRIPTS/01-GetErrorMessages/application.log
+
